@@ -1,0 +1,49 @@
+header{
+    background: linear-gradient(-100deg, RGB(219, 41, 47), RGB(0, 56, 168));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.boxLogo {
+    display: flex;
+    align-items:center;
+}
+.boxLogo>p{
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+#menu {
+    cursor: pointer;
+    color: white;
+}
+
+.navegacao{
+    display: none;
+}
+
+.listaPersonagens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.listaPersonagens > li {
+    text-align: center;
+    width: 350px;
+    list-style: none;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    cursor: pointer;
+
+}
+
+.listaPersonagens > li:hover{
+    transition: .3s;
+    transform: scale(1.1);
+}
+

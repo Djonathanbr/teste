@@ -1,4 +1,4 @@
-header{
+.containerMenubar{
     background: linear-gradient(-100deg, RGB(219, 41, 47), RGB(0, 56, 168));
     display: flex;
     justify-content: space-between;

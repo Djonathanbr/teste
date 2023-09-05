@@ -1,17 +1,35 @@
 .boxImagens{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 10px;
 }
 
 .paragrafos{
-    background-color: rgba(0, 0, 0, 0.513);
     color: white;
+    margin-top: 5px;
     padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.513);
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.266);
 }
 
 .imagens{
     border: 3px solid  black;
-    border-radius: 5px;
-    width: 380px;
+    border-radius: 3px;
+    width: 100%;
     cursor: pointer;
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    .imagens,p{
+        width: 600px;
+    }
+}
+
+@media (min-width: 1024px){
+    .imagens,p{
+        width: 600px;
+    }
 }
